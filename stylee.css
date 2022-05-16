@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2? family= Mukta:wght@400;700 & family= Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700; 1,200;1,300;1,400;1,500;1,600;1,700;1,800 ve görüntüleme=takas");
+@import url("https://fonts.googleapis.com/css2? aile= Istakoz &family= Mukta:wght@400;700 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #9fe2e2;
+  background-size: cover;
+  font-family: "popins", sans-serif;
+}
+a {
+  color: "beige";
+}
+#conteiner {
+  width: 90%;
+  margin: auto;
+}
+
+/*Header start*/
+.logo img {
+  border: 2px solid rgb(164, 216, 164);
+  width: 81px;
+  height: 81px;
+  border-radius: 999rem;
+}
+header {
+  height: 100px;
+  border-bottom: 2px solid rgba(241, 240, 235, 0.651);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+header nav .logo a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(241, 240, 235, 0.651);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 25px;
+}
+nav ul a {
+  text-decoration: none;
+  color: rgba(241, 240, 235, 0.651);
+}
+nav .header-menu {
+  display: flex;
+  align-items: center;
+}
+/*header end*/
+
+/*article start*/
+.icerik {
+  position: relative;
+  top: 30px;
+  left: 85px;
+  width: 88%;
+  text-align: center;
+}
+
+.article-list {
+  display: flex;
+  column-gap: 35px;
+  list-style: none;
+  position: relative;
+  top: 60px;
+  left: 560px;
+  width: 50%;
+}
+article .article-list a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+/*article end*/
